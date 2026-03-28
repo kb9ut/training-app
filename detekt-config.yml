@@ -1,0 +1,107 @@
+# Detekt configuration for PROR
+# Relaxed rules to avoid breaking the existing build.
+# Tighten these gradually as the codebase matures.
+
+complexity:
+  active: true
+  ComplexCondition:
+    active: true
+    threshold: 6
+  ComplexMethod:
+    active: false
+  CyclomaticComplexMethod:
+    active: false
+  LargeClass:
+    active: false
+  LongMethod:
+    active: false
+  LongParameterList:
+    active: false
+  MethodOverloading:
+    active: false
+  NestedBlockDepth:
+    active: true
+    threshold: 6
+  NestedScopeFunctions:
+    active: false
+  ReplaceSafeCallChainWithRun:
+    active: false
+  StringLiteralDuplication:
+    active: false
+  TooManyFunctions:
+    active: false
+
+coroutines:
+  active: true
+
+empty-blocks:
+  active: true
+  EmptyCatchBlock:
+    active: true
+    allowedExceptionNameRegex: '_|ignore|expected'
+  EmptyFunctionBlock:
+    active: true
+    ignoreOverridden: true
+
+exceptions:
+  active: true
+  SwallowedException:
+    active: false
+  TooGenericExceptionCaught:
+    active: false
+
+naming:
+  active: true
+  FunctionNaming:
+    active: true
+    # Allow PascalCase for Composable functions
+    functionPattern: '[a-zA-Z][a-zA-Z0-9]*'
+  TopLevelPropertyNaming:
+    active: true
+    constantPattern: '[A-Z][A-Za-z0-9_]*'
+    propertyPattern: '[A-Za-z][A-Za-z0-9_]*'
+  VariableNaming:
+    active: true
+    variablePattern: '[a-z][A-Za-z0-9]*'
+    privateVariablePattern: '_?[a-z][A-Za-z0-9]*'
+  MatchingDeclarationName:
+    active: false
+  InvalidPackageDeclaration:
+    active: false
+
+performance:
+  active: true
+  SpreadOperator:
+    active: false
+
+potential-bugs:
+  active: true
+
+style:
+  active: true
+  ForbiddenComment:
+    active: false
+  MagicNumber:
+    active: false
+  MaxLineLength:
+    active: false
+  ReturnCount:
+    active: false
+  ThrowsCount:
+    active: false
+  UnnecessaryAbstractClass:
+    active: false
+  UnusedPrivateMember:
+    active: false
+  UseDataClass:
+    active: false
+  WildcardImport:
+    active: false
+  UnusedImports:
+    active: true
+  DestructuringDeclarationWithTooManyEntries:
+    active: false
+  LoopWithTooManyJumpStatements:
+    active: false
+  ObjectLiteralToLambda:
+    active: false

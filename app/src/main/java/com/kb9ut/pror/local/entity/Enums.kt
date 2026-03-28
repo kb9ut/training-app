@@ -1,0 +1,24 @@
+package com.kb9ut.pror.data.local.entity
+
+enum class MuscleGroup {
+    CHEST, BACK, SHOULDERS, BICEPS, TRICEPS, FOREARMS,
+    QUADRICEPS, HAMSTRINGS, GLUTES, CALVES,
+    ABS, OBLIQUES, TRAPS, LATS, FULL_BODY, CARDIO, OTHER
+}
+
+enum class EquipmentCategory {
+    BARBELL, DUMBBELL, MACHINE, CABLE, BODYWEIGHT,
+    KETTLEBELL, BAND, SMITH_MACHINE, OTHER
+}
+
+enum class SetType {
+    NORMAL, WARMUP, DROP_SET, FAILURE, REST_PAUSE, AMRAP
+}
+
+enum class GroupType {
+    NONE, SUPERSET, GIANT_SET, CIRCUIT
+}
+
+enum class SoundType {
+    DEFAULT, BEEP, BELL, CHIME, VIBRATE_ONLY, SILENT
+}

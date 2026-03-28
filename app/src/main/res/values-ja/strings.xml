@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PROR</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">ホーム</string>
+    <string name="nav_calendar">カレンダー</string>
+    <string name="nav_exercises">種目</string>
+    <string name="nav_progress">進捗</string>
+    <string name="nav_settings">設定</string>
+
+    <!-- Home -->
+    <string name="start_workout">ワークアウトを開始</string>
+    <string name="recent_workouts">最近のワークアウト</string>
+    <string name="no_workouts_yet">まだワークアウトがありません。最初の一歩を踏み出しましょう！</string>
+    <string name="routines">ルーティン</string>
+    <string name="home_this_week">今週</string>
+    <string name="home_streak">連続記録</string>
+    <string name="home_workouts_count">%d回</string>
+    <string name="home_days_count">%d日</string>
+    <string name="home_quick_start">クイックスタート</string>
+    <string name="home_no_routines">ルーティンがありません。作成しましょう！</string>
+    <string name="cd_routine_card">ルーティン %s からワークアウトを開始</string>
+
+    <!-- Exercises -->
+    <string name="search_exercises">種目を検索…</string>
+    <string name="add_exercise">種目を追加</string>
+    <string name="custom_exercise">カスタム種目</string>
+    <string name="exercise_name">種目名</string>
+    <string name="muscle_group">筋肉グループ</string>
+    <string name="equipment">器具</string>
+    <string name="notes">メモ</string>
+    <string name="secondary_muscle_group">補助筋肉グループ</string>
+    <string name="filter_all">すべて</string>
+    <string name="personal_bests">自己ベスト</string>
+    <string name="history">履歴</string>
+    <string name="max_weight">最大重量</string>
+    <string name="max_reps">最多レップ</string>
+    <string name="estimated_1rm">推定1RM</string>
+    <string name="no_history_yet">まだ履歴がありません</string>
+    <string name="create">作成</string>
+    <string name="cancel">キャンセル</string>
+    <string name="save">保存</string>
+    <string name="exercise_name_required">種目名を入力してください</string>
+    <string name="no_personal_bests">まだ自己ベストがありません</string>
+    <string name="none">なし</string>
+    <string name="set_header">セット %1$d</string>
+
+    <!-- Workout -->
+    <string name="finish_workout">完了</string>
+    <string name="discard_workout">ワークアウトを破棄</string>
+    <string name="add_set">セット追加</string>
+    <string name="add_exercise_to_workout">種目を追加</string>
+    <string name="set_number">セット</string>
+    <string name="previous">前回</string>
+    <string name="weight">重量</string>
+    <string name="reps">レップ</string>
+    <string name="rpe">RPE</string>
+    <string name="rir">RIR</string>
+    <string name="done">完了</string>
+    <string name="elapsed_time">経過時間</string>
+
+    <string name="continue_workout">ワークアウトを続ける</string>
+    <string name="workout_in_progress">ワークアウト進行中</string>
+    <string name="select_exercise">種目を選択</string>
+    <string name="remove_exercise">種目を削除</string>
+    <string name="discard_workout_confirm">このワークアウトを破棄しますか？</string>
+    <string name="finish_workout_confirm">このワークアウトを完了しますか？</string>
+    <string name="no_exercises_added">まだ種目が追加されていません</string>
+    <string name="tap_to_add_exercise">下のボタンから種目を追加してください</string>
+
+    <!-- Calendar -->
+    <string name="calendar_no_workouts_on_day">この日のワークアウトはありません</string>
+    <string name="calendar_today">今日</string>
+    <string name="calendar_exercises_count">%d種目</string>
+
+    <!-- Rest Timer -->
+    <string name="rest_timer">レストタイマー</string>
+    <string name="rest_timer_skip">スキップ</string>
+    <string name="rest_timer_add_30s">+30秒</string>
+    <string name="rest_timer_complete">レスト完了！</string>
+    <string name="rest_timer_remaining">残り %s</string>
+
+    <!-- Units -->
+    <string name="kg">kg</string>
+    <string name="lbs">lbs</string>
+
+    <!-- Settings -->
+    <string name="unit_setting">重量単位</string>
+    <string name="rest_timer_default">デフォルトレストタイマー</string>
+    <string name="one_rm_formula">1RM計算方式</string>
+    <string name="theme">テーマ</string>
+    <string name="theme_system">システム設定に従う</string>
+    <string name="theme_light">ライト</string>
+    <string name="theme_dark">ダーク</string>
+    <string name="export_data">データをエクスポート</string>
+    <string name="import_data">データをインポート</string>
+    <string name="export_success">データのエクスポートが完了しました</string>
+    <string name="export_error">エクスポートに失敗しました</string>
+    <string name="import_success">データのインポートが完了しました</string>
+    <string name="import_error">インポートに失敗しました</string>
+    <string name="language">言語</string>
+    <string name="settings_general">一般</string>
+    <string name="settings_data">データ</string>
+    <string name="settings_about">アプリ情報</string>
+    <string name="settings_version">バージョン</string>
+    <string name="rest_timer_seconds">%d秒</string>
+    <string name="settings_1rm_median">中央値（全公式）</string>
+    <string name="settings_1rm_average">平均値（全公式）</string>
+    <string name="settings_timer_sound">タイマーサウンド</string>
+    <string name="settings_metronome_sound">メトロノームサウンド</string>
+    <string name="sound_default">デフォルト</string>
+    <string name="sound_beep">ビープ</string>
+    <string name="sound_bell">ベル</string>
+    <string name="sound_chime">チャイム</string>
+    <string name="sound_vibrate_only">バイブのみ</string>
+    <string name="sound_silent">サイレント</string>
+
+    <!-- Progress -->
+    <string name="progress_select_exercise">種目を選択して進捗を表示</string>
+    <string name="progress_estimated_1rm_trend">推定1RM推移</string>
+    <string name="progress_volume_trend">ボリューム推移</string>
+    <string name="progress_best_weight">最大重量</string>
+    <string name="progress_best_1rm">最高推定1RM</string>
+    <string name="progress_best_volume">最大ボリューム</string>
+    <string name="progress_period_1m">1月</string>
+    <string name="progress_period_3m">3月</string>
+    <string name="progress_period_6m">6月</string>
+    <string name="progress_period_1y">1年</string>
+    <string name="progress_period_all">全期間</string>
+    <string name="progress_no_data">この期間のデータはありません</string>
+    <string name="progress_chart_1rm_tooltip">1RM: %.1f kg</string>
+    <string name="progress_chart_set_detail">%.1f kg × %dレップ</string>
+    <string name="progress_chart_tap_hint">ポイントをタップして詳細表示</string>
+    <string name="progress_weekly_muscle_volume">週間筋肉グループ別ボリューム</string>
+
+    <!-- Muscle Groups -->
+    <string name="muscle_chest">胸</string>
+    <string name="muscle_back">背中</string>
+    <string name="muscle_shoulders">肩</string>
+    <string name="muscle_biceps">二頭筋</string>
+    <string name="muscle_triceps">三頭筋</string>
+    <string name="muscle_forearms">前腕</string>
+    <string name="muscle_quadriceps">大腿四頭筋</string>
+    <string name="muscle_hamstrings">ハムストリングス</string>
+    <string name="muscle_glutes">臀部</string>
+    <string name="muscle_calves">ふくらはぎ</string>
+    <string name="muscle_abs">腹筋</string>
+    <string name="muscle_obliques">腹斜筋</string>
+    <string name="muscle_traps">僧帽筋</string>
+    <string name="muscle_lats">広背筋</string>
+    <string name="muscle_full_body">全身</string>
+    <string name="muscle_cardio">有酸素</string>
+    <string name="muscle_other">その他</string>
+
+    <!-- Workout Detail -->
+    <string name="delete_workout">ワークアウトを削除</string>
+    <string name="workout_detail_delete_confirm">このワークアウトを削除しますか？</string>
+    <string name="workout_detail_duration">所要時間</string>
+    <string name="workout_detail_total_volume">総ボリューム</string>
+    <string name="workout_detail_estimated_1rm">推定1RM</string>
+
+    <!-- Routines -->
+    <string name="routine_new">新規ルーティン</string>
+    <string name="routine_edit">ルーティンを編集</string>
+    <string name="routine_no_routines">ルーティンがありません。最初の一つを作成しましょう！</string>
+    <string name="routine_delete_confirm">このルーティンを削除しますか？</string>
+    <string name="routine_start">ワークアウトを開始</string>
+    <string name="routine_name">ルーティン名</string>
+    <string name="routine_description">説明</string>
+    <string name="routine_target_weight">重量</string>
+    <string name="routine_target_reps">レップ</string>
+    <string name="routine_add_set_template">+ セット追加</string>
+    <string name="routine_exercise_notes_hint">種目メモ…</string>
+
+    <!-- Program Presets -->
+    <string name="browse_programs">プログラムを閲覧</string>
+    <string name="browse_programs_section">プログラムを閲覧</string>
+    <string name="browse_programs_desc">すぐに始められるトレーニングプログラムを探す</string>
+    <string name="my_routines_section">マイルーティン</string>
+    <string name="program_ppl">プッシュ/プル/レッグ</string>
+    <string name="program_ppl_desc">押す・引く・脚の3日間スプリット</string>
+    <string name="program_upper_lower">上半身/下半身スプリット</string>
+    <string name="program_upper_lower_desc">上半身と下半身を交互に鍛える2日間スプリット</string>
+    <string name="program_full_body">全身トレーニング</string>
+    <string name="program_full_body_desc">1回のセッションで全身を鍛えるプログラム</string>
+    <string name="program_push_day">プッシュデー</string>
+    <string name="program_pull_day">プルデー</string>
+    <string name="program_leg_day">レッグデー</string>
+    <string name="program_upper_day">上半身</string>
+    <string name="program_lower_day">下半身</string>
+    <string name="import_program">インポート</string>
+    <string name="program_imported">プログラムをインポートしました</string>
+
+    <!-- PR Achievement -->
+    <string name="pr_new">新記録！</string>
+    <string name="pr_weight_record">重量記録更新</string>
+    <string name="pr_reps_record">レップ記録更新</string>
+    <string name="pr_1rm_record">推定1RM記録更新</string>
+
+    <!-- Workout Summary -->
+    <string name="workout_summary_title">ワークアウト完了！</string>
+    <string name="workout_summary_sets_completed">完了セット数</string>
+    <string name="workout_summary_exercises">種目数</string>
+    <string name="workout_summary_back_home">ホームに戻る</string>
+
+    <!-- Tempo -->
+    <string name="tempo">テンポ</string>
+    <string name="tempo_set">テンポ設定</string>
+    <string name="tempo_eccentric">伸張</string>
+    <string name="tempo_pause_bottom">停止</string>
+    <string name="tempo_concentric">収縮</string>
+    <string name="tempo_pause_top">停止</string>
+    <string name="tempo_tut">TUT</string>
+    <string name="tempo_clear">クリア</string>
+    <string name="metronome_start">メトロノーム開始</string>
+    <string name="metronome_stop">メトロノーム停止</string>
+    <string name="tempo_phase_eccentric">伸張</string>
+    <string name="tempo_phase_pause">停止</string>
+    <string name="tempo_phase_concentric">収縮</string>
+
+    <!-- Superset / Grouping -->
+    <string name="superset">スーパーセット</string>
+    <string name="triset">トライセット</string>
+    <string name="circuit">サーキット</string>
+    <string name="remove_from_superset">スーパーセットから外す</string>
+    <string name="link_exercises">種目をリンク</string>
+
+    <!-- CSV Export -->
+    <string name="export_csv">CSVエクスポート</string>
+    <string name="csv_export_success">CSVエクスポートが完了しました</string>
+    <string name="csv_export_error">CSVエクスポートに失敗しました</string>
+
+    <!-- CSV Import -->
+    <string name="import_csv">CSVインポート（Strong/Hevy/FitNotes）</string>
+    <string name="csv_import_success">%1$d件のワークアウト、%2$d件の種目、%3$d件のセットをインポートしました</string>
+    <string name="csv_import_error">CSVインポートに失敗しました</string>
+    <string name="csv_import_unknown_format">不明なCSVフォーマットです</string>
+
+    <!-- Content Descriptions (Accessibility) -->
+    <string name="cd_back">戻る</string>
+    <string name="cd_close">閉じる</string>
+    <string name="cd_previous_month">前の月</string>
+    <string name="cd_next_month">次の月</string>
+    <string name="cd_remove_set">セットを削除</string>
+    <string name="cd_search">検索</string>
+    <string name="cd_workout_complete">ワークアウト完了</string>
+    <string name="cd_pr_achievement">自己ベスト達成</string>
+    <string name="cd_this_week_stats">今週の統計</string>
+    <string name="cd_streak">連続記録</string>
+    <string name="cd_quick_start">ワークアウトを開始</string>
+    <string name="cd_routines_link">ルーティン</string>
+    <string name="cd_exercises_link">種目</string>
+    <string name="cd_delete">削除</string>
+    <string name="cd_start_routine">ルーティンを開始</string>
+    <string name="cd_add_exercise">種目を追加</string>
+    <string name="cd_plate_calculator">プレート計算機</string>
+    <string name="cd_complete_set">セットを完了にする</string>
+    <string name="cd_edit_tempo">テンポを編集</string>
+    <string name="cd_metronome_toggle">メトロノームの切替</string>
+    <string name="cd_copy_previous_set">前回のセット値をコピー</string>
+    <string name="cd_settings">設定</string>
+    <string name="cd_toggle_notes">メモの表示切替</string>
+    <string name="workout_exercise_notes_hint">この種目にメモを追加…</string>
+
+    <!-- 1RM Calculator -->
+    <string name="rm_calculator">1RM計算機</string>
+    <string name="rm_calculator_formula">計算式</string>
+    <string name="rm_calculator_estimated_1rm">推定1RM</string>
+    <string name="rm_calculator_median">中央値</string>
+    <string name="rm_calculator_average">平均値</string>
+    <string name="rm_calculator_min">最小値</string>
+    <string name="rm_calculator_max">最大値</string>
+    <string name="rm_calculator_nrm_title">レップ換算表</string>
+    <string name="rm_calculator_rm">RM</string>
+    <string name="rm_calculator_coefficient">係数</string>
+    <string name="rm_calculator_est_weight">推定重量</string>
+    <string name="cd_rm_calculator">1RM計算機</string>
+
+    <!-- Plate Calculator -->
+    <string name="plate_calculator">プレート計算機</string>
+    <string name="plate_calculator_target_weight">目標重量</string>
+    <string name="plate_calculator_bar_weight">バーの重さ</string>
+    <string name="plate_calculator_per_side">片側</string>
+    <string name="plate_calculator_no_plates">プレート不要</string>
+    <string name="plate_calculator_unreachable">正確な重量に到達できません</string>
+
+    <!-- Equipment -->
+    <string name="equip_barbell">バーベル</string>
+    <string name="equip_dumbbell">ダンベル</string>
+    <string name="equip_machine">マシン</string>
+    <string name="equip_cable">ケーブル</string>
+    <string name="equip_bodyweight">自重</string>
+    <string name="equip_kettlebell">ケトルベル</string>
+    <string name="equip_band">バンド</string>
+    <string name="equip_smith_machine">スミスマシン</string>
+    <string name="equip_other">その他</string>
+</resources>

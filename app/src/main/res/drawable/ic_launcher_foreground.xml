@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer weight plate ring - brushed steel -->
+    <path
+        android:fillColor="#FF555555"
+        android:pathData="M54,54m-28,0a28,28 0,1 1,56 0a28,28 0,1 1,-56 0" />
+    <!-- Inner plate cutout - dark -->
+    <path
+        android:fillColor="#FF1A1A1A"
+        android:pathData="M54,54m-22,0a22,22 0,1 1,44 0a22,22 0,1 1,-44 0" />
+    <!-- Inner ring accent - blood orange -->
+    <path
+        android:strokeColor="#FFFF4500"
+        android:strokeWidth="2.5"
+        android:fillColor="#00000000"
+        android:pathData="M54,54m-22,0a22,22 0,1 1,44 0a22,22 0,1 1,-44 0" />
+
+    <!-- Bold "P" letter - heavy industrial serif style -->
+    <!-- P vertical stroke -->
+    <path
+        android:fillColor="#FFF0F0F0"
+        android:pathData="M46,40h6v28h-6z" />
+    <!-- P bowl (top curve) -->
+    <path
+        android:fillColor="#FFF0F0F0"
+        android:pathData="M46,40h12a8,8 0,0 1,0 16h-12v-6h10a2,2 0,0 0,0 -4h-10z" />
+    <!-- Blood orange accent bar under P -->
+    <path
+        android:fillColor="#FFFF4500"
+        android:pathData="M46,66h18v3h-18z" />
+
+    <!-- Plate notches (weight plate grooves) -->
+    <path
+        android:fillColor="#FF8A8A8A"
+        android:pathData="M54,26.5v-1.5"
+        android:strokeWidth="2"
+        android:strokeColor="#FF8A8A8A"
+        android:strokeLineCap="round" />
+    <path
+        android:fillColor="#FF8A8A8A"
+        android:pathData="M54,81.5v1.5"
+        android:strokeWidth="2"
+        android:strokeColor="#FF8A8A8A"
+        android:strokeLineCap="round" />
+    <path
+        android:fillColor="#FF8A8A8A"
+        android:pathData="M26.5,54h-1.5"
+        android:strokeWidth="2"
+        android:strokeColor="#FF8A8A8A"
+        android:strokeLineCap="round" />
+    <path
+        android:fillColor="#FF8A8A8A"
+        android:pathData="M81.5,54h1.5"
+        android:strokeWidth="2"
+        android:strokeColor="#FF8A8A8A"
+        android:strokeLineCap="round" />
+</vector>
